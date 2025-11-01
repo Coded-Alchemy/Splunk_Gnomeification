@@ -1,0 +1,11 @@
+{
+  "result": {
+    "alert_name": "Unauthorized SSH Access",
+    "src_ip": "10.9.18.5",
+    "dest_ip": "10.9.18.10",
+    "user": "root",
+    "severity": "high",
+    "message": "Suspicious login detected",
+    "_time": "2025-10-29T19:30:00Z"
+  }
+}
