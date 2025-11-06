@@ -1,0 +1,37 @@
+<form class="form-horizontal form-complex">
+    <div class="control-group">
+        <label class="control-label" for="splunk_gnomeification_title">Title</label>
+        <div class="controls">
+            <input type="text" name="action.splunk_gnomeification.param.title" id="splunk_gnomeification_title" value="Splunk Alert"/>
+            <span class="help-block">The title of the notification</span>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label" for="splunk_gnomeification_message">Message</label>
+        <div class="controls">
+            <textarea name="action.splunk_gnomeification.param.message" id="splunk_gnomeification_message" rows="3">Alert triggered from Splunk</textarea>
+            <span class="help-block">The notification message body</span>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label" for="splunk_gnomeification_urgency">Urgency</label>
+        <div class="controls">
+            <select name="action.splunk_gnomeification.param.urgency" id="splunk_gnomeification_urgency">
+                <option value="low">Low</option>
+                <option value="normal" selected>Normal</option>
+                <option value="critical">Critical</option>
+            </select>
+            <span class="help-block">Notification urgency level</span>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label" for="splunk_gnomeification_icon">Icon</label>
+        <div class="controls">
+            <input type="text" name="action.splunk_gnomeification.param.icon" id="splunk_gnomeification_icon" value="dialog-information"/>
+            <span class="help-block">Icon name (e.g., dialog-information, dialog-warning, dialog-error)</span>
+        </div>
+    </div>
+</form>
